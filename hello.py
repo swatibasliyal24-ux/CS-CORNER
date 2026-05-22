@@ -44,3 +44,10 @@ y=30
 print(not False)
 print(not True)
 print(not (x>y))
+val1=True
+val2=False
+val3=True
+print(val1 and val2)
+print(val1 and val3)
+print(val1 or val2)
+print(val1 or val3)
