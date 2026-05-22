@@ -38,3 +38,9 @@ a%=6 #a=a%6
 print(a)
 a//=6 #a=a//6
 print(a)
+#logical operators
+x=20
+y=30
+print(not False)
+print(not True)
+print(not (x>y))
