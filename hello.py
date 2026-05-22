@@ -51,3 +51,26 @@ print(val1 and val2)
 print(val1 and val3)
 print(val1 or val2)
 print(val1 or val3)
+#type conversion
+num1=10
+num2=3.14
+sum=num1+num2
+print(sum)
+print(type(sum))
+num3=int(num2) #converting float to int
+print(num3)
+name=input("Enter your name: ")
+print("welcome",name)
+a=2
+b=3
+print(a+b)
+num1 = int(input("num1:"))
+num2 = int(input("num2:"))
+print(num1+num2)
+side = int(input("side:"))
+print("Area of square:", side * side)
+num1 = float(input("num1:"))
+num2 = float(input("num2:"))
+sum = num1 + num2
+average = sum / 2
+print(average)
