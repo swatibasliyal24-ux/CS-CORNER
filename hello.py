@@ -74,3 +74,22 @@ num2 = float(input("num2:"))
 sum = num1 + num2
 average = sum / 2
 print(average)
+str="Hello, World!.\nWelcome to Python programming."
+print(str)
+str1="Hello"
+str2="World"
+final_str=str1+str2
+print(final_str)
+length=len(final_str)
+print(length)
+ch=str[5]
+print(ch)
+substring=str[0:5]
+print(substring)
+substring1=str[7:12]
+print(substring1)
+substring2=str[-5:-1]
+print(substring2)
+print(str.endswith("programming."))
+print(str.replace("World","Python"))
+print(str.find("Python"))
