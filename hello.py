@@ -93,3 +93,29 @@ print(substring2)
 print(str.endswith("programming."))
 print(str.replace("World","Python"))
 print(str.find("Python"))
+first_name=input("First name: ")
+length=len(first_name)
+print("Length of first name:", length)
+str="Hi,$I am the $symbol 99.99"
+print(str.count("$"))
+age=25
+if age>18:
+    print("You are an adult.")
+elif age==18:
+    print("You are just an adult.")
+else:
+    print("You are a minor.")
+num=int(input("Enter a number: "))
+if num%2==0:
+    print("Even number")
+else:
+    print("Odd number")
+num1=int(input("num1: "))
+num2=int(input("num2: "))
+num3=int(input("num3: "))
+if num1>=num2 and num1>=num3:
+    print("Largest number:", num1)
+elif num2>=num1 and num2>=num3:
+    print("Largest number:", num2)
+else:
+    print("Largest number:", num3)
