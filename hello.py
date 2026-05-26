@@ -1,4 +1,4 @@
-
+'''
 old = False
 a=None
 print(type(old))
@@ -16,8 +16,10 @@ print(quotient)
 print(a%b)
 print(a//b) #gives the quotient without the decimal part
 #Hi,I am learning Python programming language.
+'''
 """multi-line
 comment"""
+'''
 #relational operators
 print(a>b)
 print(a<b)
@@ -38,6 +40,8 @@ a%=6 #a=a%6
 print(a)
 a//=6 #a=a//6
 print(a)
+'''
+'''
 #logical operators
 x=20
 y=30
@@ -52,6 +56,8 @@ print(val1 and val3)
 print(val1 or val2)
 print(val1 or val3)
 #type conversion
+'''
+'''
 num1=10
 num2=3.14
 sum=num1+num2
@@ -69,6 +75,8 @@ num2 = float(input("num2:"))
 sum = num1 + num2
 average = sum / 2
 print(average)
+'''
+'''
 str="Hello, World!.\nWelcome to Python programming."
 print(str)
 str1="Hello"
@@ -93,6 +101,8 @@ length=len(first_name)
 print("Length of first name:", length)
 str="Hi,$I am the $symbol 99.99"
 print(str.count("$"))
+'''
+'''
 age=25
 if age>18:
     print("You are an adult.")
@@ -120,6 +130,8 @@ print(type(marks))
 print(marks[0])
 student=["Alice", 20, "Computer Science", 3.8]
 print(student)
+'''
+'''
 list=[1, 2, 3, 4, 5]
 list.append(6)
 print(list)
@@ -135,4 +147,33 @@ print(list)
 list.remove(3)
 print(list)
 list.pop(4)
+print(list)
+'''
+'''
+tup=(1, 2, 3, 4, 5)
+print(tup)
+print(type(tup))
+print(tup[0])
+print(tup[1:3])
+print(tup.count(3))
+print(tup.index(4))
+'''
+'''
+movie1=input("Movie 1: ")
+movie2=input("Movie 2: ")
+movie3=input("Movie 3: ")
+favorite_movies=[movie1, movie2, movie3]
+print("Favorite movies:", favorite_movies)
+'''
+list1=[1, 2, 3]
+copy_list=list1.copy()
+copy_list.reverse()
+if copy_list==list1:
+    print("The list is a palindrome.")
+else:
+    print("The list is not a palindrome.")
+list=["C","D","A","B","B","A"]
+list.count("A")
+print(list.count("A"))
+list.sort()
 print(list)
