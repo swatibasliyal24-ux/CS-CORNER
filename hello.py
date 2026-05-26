@@ -59,14 +59,9 @@ print(sum)
 print(type(sum))
 num3=int(num2) #converting float to int
 print(num3)
-name=input("Enter your name: ")
-print("welcome",name)
 a=2
 b=3
 print(a+b)
-num1 = int(input("num1:"))
-num2 = int(input("num2:"))
-print(num1+num2)
 side = int(input("side:"))
 print("Area of square:", side * side)
 num1 = float(input("num1:"))
@@ -119,3 +114,25 @@ elif num2>=num1 and num2>=num3:
     print("Largest number:", num2)
 else:
     print("Largest number:", num3)
+marks=[85, 90, 78, 92, 88]
+print(marks)
+print(type(marks))
+print(marks[0])
+student=["Alice", 20, "Computer Science", 3.8]
+print(student)
+list=[1, 2, 3, 4, 5]
+list.append(6)
+print(list)
+list=[2,1,3,5,4]
+list.sort()
+print(list)
+print(list.sort(reverse=True))
+print(list)
+list.reverse()
+print(list)
+list.insert(2, 10)
+print(list)
+list.remove(3)
+print(list)
+list.pop(4)
+print(list)
