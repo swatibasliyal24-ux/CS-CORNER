@@ -165,6 +165,7 @@ movie3=input("Movie 3: ")
 favorite_movies=[movie1, movie2, movie3]
 print("Favorite movies:", favorite_movies)
 '''
+'''
 list1=[1, 2, 3]
 copy_list=list1.copy()
 copy_list.reverse()
@@ -177,3 +178,28 @@ list.count("A")
 print(list.count("A"))
 list.sort()
 print(list)
+'''
+'''
+student_info={
+    "name": "Alice",
+    "age": 20,
+    "major": "Computer Science",
+    "GPA": 3.8,
+    "favorite_movies": ["Roma", "Titanic", "Avengers"],
+    "favorite_colors": {
+        "color1": "red",
+        "color2": "blue",
+        "color3": "green"
+    }
+}
+'''
+'''
+print(student_info)
+print(type(student_info))
+print(student_info.items())
+print(student_info.values())
+print(student_info.keys())
+print(student_info.get("name"))
+student_info.update({"age": 21})
+print(student_info)
+'''
