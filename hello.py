@@ -203,3 +203,53 @@ print(student_info.get("name"))
 student_info.update({"age": 21})
 print(student_info)
 '''
+'''
+collection={1,2,3,4,5}
+print(collection)
+print(type(collection))
+collection.add(6)
+print(collection)
+collection.remove(3)
+print(collection)
+collection.clear()
+print(collection)
+collection={1,2,3,4,5}
+collection.pop()
+print(collection)
+collection1={1,2,3}
+collection2={3,4,5}
+union_set=collection1.union(collection2)
+print(union_set)
+intersection_set=collection1.intersection(collection2)
+print(intersection_set)
+difference_set=collection1.difference(collection2)
+print(difference_set)
+'''
+'''
+dictionary={
+    "cat":"a small animal",
+    "table":["a piece of furniture","list of facts and figures"]
+}
+print(dictionary)
+classroom={"python","java","c++","python","java","javascript","c++","python","c"}
+print(len(classroom))
+'''
+'''
+marks = {}
+
+subject_1 = input("Enter subject 1 name: ")
+mark_1 = int(input("Enter marks: "))
+marks.update({subject_1: mark_1})
+
+subject_2 = input("Enter subject 2 name: ")
+mark_2 = int(input("Enter marks: "))
+marks.update({subject_2: mark_2})
+
+subject_3 = input("Enter subject 3 name: ")
+mark_3 = int(input("Enter marks: "))
+marks.update({subject_3: mark_3})
+
+print(marks)
+values={9,"9.0"}
+print (values)
+'''
