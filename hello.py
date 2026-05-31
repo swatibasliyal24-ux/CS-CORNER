@@ -253,3 +253,116 @@ print(marks)
 values={9,"9.0"}
 print (values)
 '''
+'''
+count=1
+while count<=5:
+    print(count)
+    count+=1
+while count>0:
+    print(count)
+    count-=1
+i=1
+while i<=100:
+    print(i)
+    i+=1 
+i=100
+while i>=1:
+    print(i)
+    i-=1
+n=int(input("Enter a number: "))
+i=1
+while i<=10:
+    print(i*n)
+    i+=1
+    '''
+'''
+nums = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+i = 0
+while i < len(nums):
+    print(nums[i])
+    i += 1
+    '''
+'''
+tup = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
+
+x = int(input("Enter the number to search: "))
+
+i = 0
+while i < len(tup):
+    if tup[i] == x:
+        print("Number found at index", i)
+        break
+    i += 1
+else:
+    print("Number not found")
+    '''
+'''
+list=[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+for num in list:
+    print(num)
+    '''
+'''
+tup=(1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
+for num in tup:
+    if num == 36:
+      print("num is found")
+      break
+
+print(num)
+nums = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+for num in nums:
+        print(num)
+nums=(1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
+x=int(input("Enter the number to search: "))
+for num in nums:
+    idx = nums.index(num)
+    if num == x:
+        print("Number found at index", idx)
+        break
+else:
+    print("Number not found")
+    '''
+'''
+seq=range(5)
+print(seq[0])
+print(seq[1])
+print(seq[2])
+print(seq[3])
+print(seq[4])
+'''
+'''
+seq=range(1, 101)
+for num in seq:
+    print(num)
+    '''
+'''
+seq=range(100,0,-1)
+for num in seq:
+    print(num)
+'''
+'''
+n=int(input("Enter a number: "))
+for i in range(1, 11):
+    print(i*n)
+    '''
+'''
+
+n = int(input("Enter a number: "))
+i = 1
+c = 0
+
+while i in range(1, n + 1):
+    c = c + i
+    i += 1
+
+print(c)
+'''
+
+
+n = int(input("Enter a number: "))
+c=1
+i=1
+for i in range(1, n + 1):
+    c = c * i
+    i += 1
+print("Factorial of", n, "is", c)
