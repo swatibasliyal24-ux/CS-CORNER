@@ -357,8 +357,7 @@ while i in range(1, n + 1):
 
 print(c)
 '''
-
-
+'''
 n = int(input("Enter a number: "))
 c=1
 i=1
@@ -366,3 +365,84 @@ for i in range(1, n + 1):
     c = c * i
     i += 1
 print("Factorial of", n, "is", c)
+'''
+'''
+def calc_sum(a,b):
+    sum=a+b
+    return sum
+
+n=calc_sum(5,10)
+print(n)
+'''
+'''
+def print_hello():
+    print("hello")
+
+print_hello()
+'''
+'''
+def calc_average(num1,num2,num3):
+    sum=num1+num2+num3
+    average=sum/3
+    return average
+
+print(calc_average(10,20,30))
+'''
+'''
+cities=["New York", "London", "Paris", "Tokyo", "Sydney"]
+def print_len(cities):
+    print(len(cities))
+
+print_len(cities)    
+print(cities[0], end=" ")
+print(cities[1], end=" ")
+print(cities[2], end=" ")
+print(cities[3], end=" ")
+print(cities[4], end=" ")
+for city in cities:
+    print(city, end=" ")
+    '''
+'''
+def factorial(n):
+    fact=1
+    for i in range(1, n + 1):
+        fact = fact * i
+    print("Factorial of", n, "is", fact)
+factorial(5)
+'''
+'''
+def converter(usd_value):
+    inr_value=usd_value*82.74
+    print("INR value:", inr_value)
+converter(1)
+'''
+'''
+#recursion
+def show(n):
+    if n==0:
+        return
+    print(n)
+    show(n-1)
+    print("END")
+show(3)
+def fact(n):
+    if n==0 or n==1:
+        return 1
+    else:
+        return n*fact(n-1)
+print(fact(5))   
+def sum(n):
+    if n==0:
+        return 0
+    else:
+        return n+sum(n-1)
+    
+print(sum(5))  
+def print_list(list, index):
+    if index == len(list):
+        return
+    print(list[index])
+    print_list(list, index + 1)
+my_list = [1, 2, 3, 4, 5]
+print_list(my_list, 0) 
+'''   
