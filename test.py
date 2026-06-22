@@ -17,3 +17,18 @@ sorted_df = data.sort_values(by='Price', ascending=False)
 
 print(sorted_df.head(10))
 print("SWATI TEST")
+data['Ram'].value_counts().plot(kind='bar')
+
+plt.title("Ram Distribution")
+plt.xlabel("Ram")
+plt.ylabel("Count")
+
+data['Ram'] = data['Ram'].str.replace('GB', '').astype(int)
+
+plt.scatter(data['Ram'], data['Price'])
+
+plt.title("RAM vs Price")
+plt.xlabel("RAM (GB)")
+plt.ylabel("Price")
+
+plt.show()
