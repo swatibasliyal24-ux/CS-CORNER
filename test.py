@@ -11,8 +11,6 @@ print(data.isnull().sum())
 print(data.columns)
 print(data.duplicated().sum())
 
-
-
 sorted_df = data.sort_values(by='Price', ascending=False)
 
 print(sorted_df.head(10))
@@ -31,4 +29,12 @@ plt.title("RAM vs Price")
 plt.xlabel("RAM (GB)")
 plt.ylabel("Price")
 
+plt.show()
+sns.boxplot(x='Ram', y='Price', data=data)
+
+plt.title("RAM vs Price")
+plt.show()
+sns.stripplot(x='Ram', y='Price', data=data)
+
+plt.title("RAM vs Price")
 plt.show()
